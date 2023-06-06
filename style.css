@@ -1,0 +1,97 @@
+main{
+    background-color: #93a8ac;
+    display: grid;
+    grid-template-areas: 'First First First First First First'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Second Second Second Second Second Third'
+    'Fourth Fourth Fourth Fourth Fourth Fourth'
+    'Fourth Fourth Fourth Fourth Fourth Fourth'
+    'Fourth Fourth Fourth Fourth Fourth Fourth'
+    'Fourth Fourth Fourth Fourth Fourth Fourth'
+    'Fourth Fourth Fourth Fourth Fourth Fourth'
+    'Fourth Fourth Fourth Fourth Fourth Fourth'
+    'Fourth Fourth Fourth Fourth Fourth Fourth'
+    'Fourth Fourth Fourth Fourth Fourth Fourth';
+    height: 100vh;
+    width: 100vw;
+    row-gap: 0px;
+    column-gap: 0px;
+}
+
+#slideshow{
+    
+    grid-area: First;
+}
+#slideshow *{
+    margin: 0px;
+}
+#image{
+    grid-area: Second;
+}
+#options{
+    
+    display: grid;
+    grid-template-areas: 'One One One'
+    'Two Two Two'
+    'Three Three Three'
+    'Four Four Four';
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-area: Third;
+}
+#upload{
+    grid-area: Fourth;
+    border: 5px solid blue;
+    
+}
+
+#options *{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.crop{
+    background-color: #002626;
+    grid-area: One;
+}
+.grayscale{
+    background-color: #002626;
+    grid-area: Two;
+}
+.sepia{
+    background-color: #002626;
+    grid-area: Three;
+}
+.edgeDetection{
+    background-color: #002626;
+    grid-area: Four;
+}
